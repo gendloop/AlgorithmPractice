@@ -1,5 +1,5 @@
 {
-    "title": "template-GitbookProject",
+    "title": "AlgorithmPractice",
     "author": "gendloop",
     "description": "DESC",
     "gitbook": ">=3.2.3",
@@ -65,7 +65,7 @@
     ],
     "pluginsConfig": {
         "sidebar-style": {
-            "title": "template-GitbookProject",
+            "title": "AlgorithmPractice",
             "author": "gendloop"
         },
         "sharing": {
@@ -103,16 +103,16 @@
             "skipFirstH1": true
         },
         "github": {
-            "url": "https://github.com/gendloop/template-GitbookProject"
+            "url": "https://github.com/gendloop/AlgorithmPractice"
         },
         "github-buttons": {
-            "template-GitbookProject": "gendloop/template-GitbookProject",
+            "AlgorithmPractice": "gendloop/AlgorithmPractice",
             "types": [
             ],
             "size": "small"
         },
         "edit-link": {
-            "base": "https://github.com/gendloop/template-GitbookProject/edit/main",
+            "base": "https://github.com/gendloop/AlgorithmPractice/edit/main",
             "label": "Edit"
         },
         "disqus": {
@@ -142,7 +142,7 @@
             "wechatText": "微信打赏"
         },
         "sitemap-general": {
-            "prefix": "https://gendloop.github.io/template-GitbookProject/"
+            "prefix": "https://gendloop.github.io/AlgorithmPractice/"
         },
         "favicon": {
             "shortcut": "assets/images/favicon.ico",
@@ -162,16 +162,16 @@
             "style": "flat"
         },
         "rss": {
-            "title": "template-GitbookProject",
+            "title": "AlgorithmPractice",
             "description": "DESC",
             "author": "gendloop",
-            "feed_url": "https://gendloop.github.io/template-GitbookProject/rss",
-            "site_url": "https://gendloop.github.io/template-GitbookProject",
+            "feed_url": "https://gendloop.github.io/AlgorithmPractice/rss",
+            "site_url": "https://gendloop.github.io/AlgorithmPractice",
             "managingEditor": "gendloop@163.com",
             "webMaster": "gendloop@163.com",
             "categories": [
                 "gitbook",
-                "template-GitbookProject"
+                "AlgorithmPractice"
             ]
         },
         "chart": {
