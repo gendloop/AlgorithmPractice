@@ -16,6 +16,7 @@ flowchart LR
 选择深搜或广搜 --> 遍历图
 遍历图 --> |存在奇环| 不是二分图
 遍历图 --> |不存在奇环| 是二分图
+
 ```
 
 ## 最大匹配
@@ -40,9 +41,9 @@ flowchart LR
 
 **实现**
 
-[import](../src/bipartite_graph_case1.h)
+[import](src/bipartite_graph_case1.h)
 
-[import](../tests/test_bipartite_graph_case1.cpp)
+[import](tests/test_bipartite_graph_case1.cpp)
 
 ## References
 
