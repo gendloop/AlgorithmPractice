@@ -41,9 +41,9 @@ flowchart LR
 
 **实现**
 
-[import](src/bipartite_graph_case1.h)
+[import](../../src/bipartite_graph_case1.h)
 
-[import](tests/test_bipartite_graph_case1.cpp)
+[import](../../tests/test_bipartite_graph_case1.cpp)
 
 ## References
 
