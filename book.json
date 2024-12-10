@@ -120,7 +120,7 @@
             "url": "https://github.com/gendloop/AlgorithmPractice"
         },
         "github-buttons": {
-            "AlgorithmPractice": "gendloop/AlgorithmPractice",
+            "repo": "gendloop/AlgorithmPractice",
             "types": [
             ],
             "size": "small"
