@@ -6,7 +6,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\graph\bipartite_graph_case1.h">
+    <ClInclude Include="..\src\graph\bipartite_graph_maximum_matching.h">
       <Filter>graph</Filter>
     </ClInclude>
   </ItemGroup>

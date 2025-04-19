@@ -1,7 +1,7 @@
 #pragma once
 /**
- * @file	bipartite_graph_case1.h
- * @brief	最大匹配 Case1
+ * @file	bipartite_graph_maximum_matching.h
+ * @brief	相互喜欢的最大匹配问题
  * @author  gendloop
  */
 
@@ -11,14 +11,14 @@
 #include <unordered_map>
 #include <unordered_set>
 
-class BipartiteGraphCase1 {
+class BipartiteGraphMaximumMatching {
 private:
     std::unordered_map<int, std::unordered_set<int>> graph_;
     std::unordered_map<int, int> match_;
     int count_;
 
 public:
-    BipartiteGraphCase1() = default;
+    BipartiteGraphMaximumMatching() = default;
 
     inline void setGraph(const std::unordered_map<int, std::unordered_set<int>>& graph) {
         graph_ = graph;

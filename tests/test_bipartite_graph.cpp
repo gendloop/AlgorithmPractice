@@ -1,9 +1,9 @@
 #include "pch.h"
 
 // local
-#include "../src/graph/bipartite_graph_case1.h"
+#include "../src/graph/bipartite_graph_maximum_matching.h"
 
-TEST(TestBipartiteGraphCase1, T1) {
+TEST(TestBipartiteGraph, MaximumMatching) {
     std::unordered_map<int, std::unordered_set<int>> graph{
         {1, {6}},
         {2, {5, 8}},
@@ -11,7 +11,7 @@ TEST(TestBipartiteGraphCase1, T1) {
         {4, {6, 7}},
     };
 
-    BipartiteGraphCase1 bg;
+    BipartiteGraphMaximumMatching bg;
     bg.setGraph(graph);
     bg.search();
     bg.printMatchedResult();

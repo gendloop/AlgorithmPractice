@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
 
     // Test specific
 #if 1
-    ::testing::FLAGS_gtest_filter += ":TestBipartiteGraphCase1.*";
+    ::testing::FLAGS_gtest_filter += ":TestBipartiteGraph.*";
 #endif
 
     // Test all

@@ -31,7 +31,7 @@ graph LR
 
 * 最大匹配数 = 最少点覆盖数
 
-### Case1
+### 相互喜欢的最大匹配问题
 
 **题目**
 
@@ -43,9 +43,9 @@ graph LR
 
 **实现**
 
-[import](../../src/graph/bipartite_graph_case1.h)
+[import](../../src/graph/bipartite_graph_maximum_matching.h)
 
-[import](../../tests/test_bipartite_graph_case1.cpp)
+[import](../../tests/test_bipartite_graph_maximum_matching.cpp)
 
 ## References
 
