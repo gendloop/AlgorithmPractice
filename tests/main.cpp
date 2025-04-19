@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
 
     // Test all
 #if 0
-    ::testing::FLAGS_gtest_filter += ":TestBipartiteGraphCase1.*";
+    ::testing::FLAGS_gtest_filter += ":TestBipartiteGraph.*";
 #endif
 
     return RUN_ALL_TESTS();
