@@ -45,8 +45,6 @@ graph LR
 
 [import](../../src/graph/bipartite_graph_maximum_matching.h)
 
-[import](../../tests/test_bipartite_graph.cpp)
-
 ## References
 
 1. [二分图 - OI Wiki](https://oi-wiki.org/graph/bi-graph/)

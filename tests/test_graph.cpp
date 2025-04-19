@@ -2,8 +2,9 @@
 
 // local
 #include "../src/graph/bipartite_graph_maximum_matching.h"
+#include "../src/graph/point_in_polygon.h"
 
-TEST(TestBipartiteGraph, MaximumMatching) {
+TEST(TestGraph, BipartiteGraphMaximumMatching) {
     std::unordered_map<int, std::unordered_set<int>> graph{
         {1, {6}},
         {2, {5, 8}},
@@ -18,3 +19,6 @@ TEST(TestBipartiteGraph, MaximumMatching) {
     std::cout << bg.getCount() << std::endl;
 }
 
+TEST(TestGraph, PointInPolygon) {
+    // todo
+}

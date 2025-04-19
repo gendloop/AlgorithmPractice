@@ -9,5 +9,8 @@
     <ClInclude Include="..\src\graph\bipartite_graph_maximum_matching.h">
       <Filter>graph</Filter>
     </ClInclude>
+    <ClInclude Include="..\src\graph\point_in_polygon.h">
+      <Filter>graph</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
