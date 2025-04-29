@@ -20,5 +20,31 @@ TEST(TestGraph, BipartiteGraphMaximumMatching) {
 }
 
 TEST(TestGraph, PointInPolygon) {
-    // todo
+    using Point = PointInPolygon::Point;
+    PointInPolygon t;
+    std::vector<Point> polygon;
+    Point p;
+    
+    // 矩形
+    {
+        polygon = {
+            {-3, -3}, {-3,  3},
+            { 3,  3}, { 3, -3}
+        };
+
+        p = { 0, 0 };
+        std::cout << (t.isPointInPolygon(polygon, p) ? "in" : "out") << std::endl;
+    }
+
+    // 凹多边形
+    {
+        polygon = {
+            {0, 0}, {4, 0}, {4, 4}, {2, 2}, {0, 4}
+        };
+
+        p = { 1, 1 };
+        std::cout << (t.isPointInPolygon(polygon, p) ? "in" : "out") << std::endl;
+        p = { 2, 4 };
+        std::cout << (t.isPointInPolygon(polygon, p) ? "in" : "out") << std::endl;
+    }
 }

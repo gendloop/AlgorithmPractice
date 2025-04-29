@@ -8,7 +8,8 @@ int main(int argc, char* argv[]) {
 
     // Test specific
 #if 1
-    ::testing::FLAGS_gtest_filter += ":TestGraph.BipartiteGraphMaximumMatching";
+    ::testing::FLAGS_gtest_filter += ":TestGraph.PointInPolygon";
+    //::testing::FLAGS_gtest_filter += ":TestGraph.BipartiteGraphMaximumMatching";
 #endif
 
     // Test all
