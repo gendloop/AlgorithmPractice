@@ -1,3 +1,3 @@
 # AlgorithmPractice
 
-项目说明
+算法回顾和练习.
