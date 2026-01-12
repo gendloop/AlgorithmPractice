@@ -4,6 +4,9 @@
     <Filter Include="graph">
       <UniqueIdentifier>{5d295a2f-a973-422d-96d7-50369fd9942c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="data-structure">
+      <UniqueIdentifier>{c97a7bd9-2f81-4526-a36f-6b1f4337cb3b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\graph\bipartite_graph_maximum_matching.h">
@@ -12,5 +15,13 @@
     <ClInclude Include="..\src\graph\point_in_polygon.h">
       <Filter>graph</Filter>
     </ClInclude>
+    <ClInclude Include="..\src\data-structure\union_find.h">
+      <Filter>data-structure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\data-structure\union_find.cpp">
+      <Filter>data-structure</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
