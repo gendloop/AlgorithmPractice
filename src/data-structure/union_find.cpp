@@ -7,21 +7,21 @@
 // local
 #include "union_find.h"
 
-UnionFind::UnionFind()
+UnionFind::UnionFind(int n)
 {
-    size_t size = parents_.size();
-    for (auto i = 0; i < size; ++i) {
+    parents_.resize(n);
+    ranks_.resize(n, 0); // 初始秩为零
+    for (auto i = 0; i < n; ++i) {
         parents_[i] = i; // 元素初始父结点为自己, 表示根结点
-        ranks_[i] = 0;   // 初始秩为零
     }
 }
 
-int UnionFind::find(int x) const
+int UnionFind::find(int x)
 {
     if (parents_[x] != x) {
-        return find(parents_[x]);
+        parents_[x] = find(parents_[x]); // 路径压缩
     }
-    return x;
+    return parents_[x];
 }
 
 void UnionFind::unite(int x, int y)
@@ -42,4 +42,9 @@ void UnionFind::unite(int x, int y)
             ranks_[rootx]++;
         }
     }
+}
+
+bool UnionFind::connected(int x, int y)
+{
+    return find(x) == find(y);
 }
