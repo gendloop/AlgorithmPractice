@@ -1,6 +1,6 @@
 # Summary
 
-* [首页](Summary.md)
+* [首页](INTRO.md)
 
 * [数据结构](contents/data-structure/README.md)
   * [并查集](contents/data-structure/union_find.md)

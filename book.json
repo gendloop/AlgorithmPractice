@@ -86,9 +86,16 @@
             "weibo": false,
             "whatsapp": false,
             "all": [
-                "facebook", "google", "twitter",
-                "weibo", "instapaper", "linkedin",
-                "pocket", "stumbleupon", "qq", "qzone"
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "instapaper",
+                "linkedin",
+                "pocket",
+                "stumbleupon",
+                "qq",
+                "qzone"
             ]
         },
         "anchor-navigation-ex": {
@@ -97,7 +104,7 @@
             "printLog": false,
             "multipleH1": false,
             "mode": "float",
-            "showGoTop":true,
+            "showGoTop": true,
             "float": {
                 "floatIcon": "fa fa-navicon",
                 "showLevelIcon": false,
@@ -121,8 +128,7 @@
         },
         "github-buttons": {
             "repo": "gendloop/AlgorithmPractice",
-            "types": [
-            ],
+            "types": [],
             "size": "small"
         },
         "edit-link": {
@@ -133,9 +139,7 @@
             "shortName": "gendloop"
         },
         "prism": {
-            "css": [
-                "prism-themes/themes/prism-vs.min.css"
-            ]
+            "css": ["prism-themes/themes/prism-vs.min.css"]
         },
         "include-codeblock": {
             "template": "acefull",
@@ -183,13 +187,16 @@
             "site_url": "https://gendloop.github.io/AlgorithmPractice",
             "managingEditor": "gendloop@163.com",
             "webMaster": "gendloop@163.com",
-            "categories": [
-                "gitbook",
-                "AlgorithmPractice"
-            ]
+            "categories": ["gitbook", "AlgorithmPractice"]
         },
         "chart": {
             "type": "c3"
+        },
+        "katex": {
+            "delimiters": [
+                { "left": "$$", "right": "$$", "display": true },
+                { "left": "$", "right": "$", "display": false }
+            ]
         }
     }
 }
